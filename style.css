@@ -107,6 +107,7 @@ h4 {
     height: 200px;
     border-radius: 8px;
     object-fit: cover;
+    object-position: top;
 }
 
 .placeholder-image {
