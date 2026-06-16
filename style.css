@@ -405,6 +405,26 @@ p {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.pub-area {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--brand);
+    background: rgba(79, 70, 229, 0.09);
+    border: 1px solid rgba(79, 70, 229, 0.18);
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    margin-bottom: 0.7rem;
+}
+
+.pub-status {
+    font-style: normal;
+    font-weight: 600;
+    color: #1f9d55;
+}
+
 .publication:hover {
     transform: translateX(4px);
     box-shadow: var(--shadow);
