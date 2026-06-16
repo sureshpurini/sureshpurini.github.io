@@ -4,122 +4,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Suresh Purini - Associate Professor</title>
+    <title>Dr. Suresh Purini · Associate Professor, IIIT Hyderabad</title>
+    <meta name="description"
+        content="Dr. Suresh Purini is an Associate Professor at IIIT Hyderabad heading the Computer Systems Group. Research in compilers, computer architecture, and ML accelerators.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <div class="container">
-            <h1>Dr. Suresh Purini</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="nav-bar">
+        <div class="container nav-inner">
+            <a href="#top" class="brand">Suresh Purini</a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="top" class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-inner">
+            <div class="hero-photo">
+                <img src="Suresh Purini V1.jpg" alt="Portrait of Dr. Suresh Purini">
+            </div>
+            <div class="hero-text">
+                <p class="eyebrow">Computer Systems Group · IIIT Hyderabad</p>
+                <h1>Dr. Suresh Purini</h1>
+                <p class="hero-role">Associate Professor of Computer Science</p>
+                <p class="hero-tagline">
+                    Building the compilers, architectures, and agentic AI systems behind
+                    next-generation hardware accelerators.
+                </p>
+                <div class="hero-tags">
+                    <span class="tag">Compilers</span>
+                    <span class="tag">Computer Architecture</span>
+                    <span class="tag">ML Accelerators</span>
+                    <span class="tag">Parallel &amp; Distributed Systems</span>
+                </div>
+                <div class="hero-cta">
+                    <!-- Email assembled by JS to deter scrapers; data attrs are split & reversed -->
+                    <a id="email-link" class="button" data-u="inirup.hserus" data-d="iiit.ac.in"
+                        href="#">Email</a>
+                    <a href="https://scholar.google.com/citations?user=m8_F5SoAAAAJ&hl=en" target="_blank"
+                        rel="noopener" class="button button-ghost">Google Scholar</a>
+                    <a href="https://www.linkedin.com/in/suresh-purini-83a6974/" target="_blank" rel="noopener"
+                        class="button button-ghost">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <main class="container">
-        <section id="about" class="section">
+        <!-- About -->
+        <section id="about" class="section reveal">
+            <span class="section-tag">01 — About</span>
             <h2>About Me</h2>
-            <div class="profile">
-                <div class="profile-image">
-                    <img src="Suresh Purini.jpg" alt="Profile Photo">
-                </div>
-                <div class="profile-content">
-                    <h3>Associate Professor</h3>
-                    <p><strong>Computer Systems Group</strong></p>
-                    <p><strong>International Institute of Information Technology, Hyderabad</strong></p>
+            <div class="about-grid">
+                <div class="about-bio">
                     <p>
-                        Dr. Suresh Purini is an Associate Professor at the International Institute of Information Technology, Hyderabad (IIIT-Hyderabad), where he heads the Computer Systems Group. He received his Ph.D. in Computer Science and Electrical Engineering from the University of Maryland, Baltimore County, his M.E. in Computer Science and Automation from the Indian Institute of Science, Bangalore, and his B.Tech. in Computer Science and Engineering from S.V. University College of Engineering, Tirupati. His research interests span compilers, computer architecture, and parallel and distributed systems. His current research focuses on the design of domain-specific accelerators, particularly machine-learning accelerators, and agentic AI systems for hardware accelerator development targeting FPGAs and ASICs.
+                        Dr. Suresh Purini is an Associate Professor at the International Institute of Information
+                        Technology, Hyderabad (IIIT-Hyderabad), where he heads the Computer Systems Group. His research
+                        interests span compilers, computer architecture, and parallel and distributed systems. His
+                        current research focuses on the design of domain-specific accelerators — particularly
+                        machine-learning accelerators — and agentic AI systems for hardware accelerator development
+                        targeting FPGAs and ASICs.
                     </p>
                     <p>
-                        He is also a certified Yoga Trainer and a Heartfulness Meditation Trainer, and is actively engaged in promoting heart-centered education at the school, college, and community levels.
+                        He is also a certified Yoga Trainer and a Heartfulness Meditation Trainer, and is actively
+                        engaged in promoting heart-centered education at the school, college, and community levels.
                     </p>
                 </div>
+                <aside class="about-edu">
+                    <h3>Education</h3>
+                    <ul class="timeline">
+                        <li>
+                            <span class="timeline-degree">Ph.D.</span>
+                            <span class="timeline-detail">Computer Science &amp; Electrical Engineering<br>University
+                                of Maryland, Baltimore County</span>
+                        </li>
+                        <li>
+                            <span class="timeline-degree">M.E.</span>
+                            <span class="timeline-detail">Computer Science &amp; Automation<br>Indian Institute of
+                                Science, Bangalore</span>
+                        </li>
+                        <li>
+                            <span class="timeline-degree">B.Tech.</span>
+                            <span class="timeline-detail">Computer Science &amp; Engineering<br>S.V. University College
+                                of Engineering, Tirupati</span>
+                        </li>
+                    </ul>
+                </aside>
             </div>
         </section>
 
-        <section id="research" class="section">
+        <!-- Research -->
+        <section id="research" class="section reveal">
+            <span class="section-tag">02 — Research</span>
             <h2>Research Interests</h2>
             <div class="research-areas">
-                <div class="research-card">
-                    <h3>Research Area 1</h3>
-                    <p>Description of your first research area and its significance.</p>
-                </div>
-                <div class="research-card">
-                    <h3>Research Area 2</h3>
-                    <p>Description of your second research area and its significance.</p>
-                </div>
-                <div class="research-card">
-                    <h3>Research Area 3</h3>
-                    <p>Description of your third research area and its significance.</p>
-                </div>
+                <article class="research-card">
+                    <div class="card-icon">⚙︎</div>
+                    <h3>Domain-Specific Accelerators</h3>
+                    <p>Designing machine-learning accelerators and hardware data paths targeting FPGAs and ASICs for
+                        high throughput and energy efficiency.</p>
+                </article>
+                <article class="research-card">
+                    <div class="card-icon">⌥</div>
+                    <h3>Compilers &amp; Architecture</h3>
+                    <p>Compiler optimizations and architectural co-design that bridge software intent and silicon
+                        performance.</p>
+                </article>
+                <article class="research-card">
+                    <div class="card-icon">✦</div>
+                    <h3>Agentic AI for Hardware</h3>
+                    <p>Agentic AI systems that assist and automate the hardware accelerator development workflow from
+                        specification to RTL.</p>
+                </article>
             </div>
         </section>
 
-        <section id="publications" class="section">
+        <!-- Publications -->
+        <section id="publications" class="section reveal">
+            <span class="section-tag">03 — Publications</span>
             <h2>Selected Publications</h2>
             <div class="publications">
-                <div class="publication">
+                <article class="publication">
                     <h4>Paper Title Here</h4>
                     <p class="authors">Authors (Year)</p>
-                    <p class="venue"><em>Conference/Journal Name</em></p>
+                    <p class="venue"><em>Conference / Journal Name</em></p>
                     <div class="links">
-                        <a href="#">PDF</a> | <a href="#">DOI</a> | <a href="#">BibTeX</a>
+                        <a href="#">PDF</a><a href="#">DOI</a><a href="#">BibTeX</a>
                     </div>
-                </div>
-                <div class="publication">
+                </article>
+                <article class="publication">
                     <h4>Another Paper Title</h4>
                     <p class="authors">Authors (Year)</p>
-                    <p class="venue"><em>Conference/Journal Name</em></p>
+                    <p class="venue"><em>Conference / Journal Name</em></p>
                     <div class="links">
-                        <a href="#">PDF</a> | <a href="#">DOI</a> | <a href="#">BibTeX</a>
+                        <a href="#">PDF</a><a href="#">DOI</a><a href="#">BibTeX</a>
                     </div>
-                </div>
-                <!-- Add more publications as needed -->
+                </article>
             </div>
-            <p><a href="#" class="button">View All Publications</a></p>
+            <a href="#" class="button">View all publications</a>
         </section>
 
-        <section id="teaching" class="section">
+        <!-- Teaching -->
+        <section id="teaching" class="section reveal">
+            <span class="section-tag">04 — Teaching</span>
             <h2>Teaching</h2>
             <div class="courses">
-                <div class="course">
+                <article class="course">
                     <h3>Course Code: Course Name</h3>
-                    <p>Description of the course and level (undergraduate/graduate)</p>
-                </div>
-                <div class="course">
+                    <p>Description of the course and level (undergraduate / graduate).</p>
+                </article>
+                <article class="course">
                     <h3>Course Code: Course Name</h3>
-                    <p>Description of the course and level (undergraduate/graduate)</p>
-                </div>
+                    <p>Description of the course and level (undergraduate / graduate).</p>
+                </article>
             </div>
         </section>
 
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> your.email@university.edu</p>
-                <p><strong>Office:</strong> Building Name, Room Number</p>
-                <p><strong>Phone:</strong> +1 (XXX) XXX-XXXX</p>
-                <div class="social-links">
-                    <a href="#">Google Scholar</a> |
-                    <a href="#">ResearchGate</a> |
-                    <a href="#">LinkedIn</a> |
-                    <a href="#">ORCID</a>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Dr. [Your Name]. All rights reserved.</p>
+            <p>&copy; 2024 Dr. Suresh Purini · Computer Systems Group, IIIT Hyderabad</p>
         </div>
     </footer>
+
+    <script>
+        // Reveal sections on scroll
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach((e) => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('is-visible');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+        // Assemble email at runtime so it never appears as plain text in the source.
+        const el = document.getElementById('email-link');
+        if (el) {
+            const user = el.dataset.u.split('').reverse().join('');
+            el.href = 'mailto:' + user + '@' + el.dataset.d;
+        }
+    </script>
 </body>
 
 </html>
